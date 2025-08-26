@@ -1,0 +1,22 @@
+#Assignment 3
+#task 1
+n = int(input("Enter a number: "))
+def factorial(n):
+    if n < 2:
+        return 1
+    else:
+        return n*factorial(n-1)
+result = factorial(n)
+print("factorial of ",n,"is :", result)
+
+#task2
+n=int(input("Enter a no: "))
+def square(n):
+    return n*n
+squared = square(n)
+print("square root: ",squared)
+import math
+natural_log = math.log(n)
+print("natural log(base e)of",n,"=",natural_log)
+sine_value = math.sin(n)
+print("sine of",n,"=",sine_value)
